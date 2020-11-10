@@ -1,28 +1,39 @@
+/* -----------------------------------template-------------------- */
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <UrunDetay msg="BenimParametrem"/> -->
+    <KampanyalarB msg="BenimParametrem"/>
+    <PromosyonKoduB msg="BenimParametrem"/>
+    <GirisYapB msg="BenimParametrem"/>
   </div>
 </template>
 
+/* -----------------------------------Script-------------------- */
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+//import UrunDetay from './components/UrunDetay.vue'
+//import KampanyalarB from './components/KampanyalarB.vue'
+//import PromosyonKoduB from './components/PromosyonKoduB.vue'
+import GirisYapB from './components/GirisYapB.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //UrunDetay
+    //KampanyalarB
+    //PromosyonKoduB
+    GirisYapB
   }
 }
 </script>
 
+
+/* -----------------------------------Style-------------------- */
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>
