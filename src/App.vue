@@ -2,9 +2,10 @@
 <template>
   <div id="app">
     <!-- <UrunDetay msg="BenimParametrem"/> -->
-    <KampanyalarB msg="BenimParametrem"/>
-    <PromosyonKoduB msg="BenimParametrem"/>
-    <GirisYapB msg="BenimParametrem"/>
+    <!-- <KampanyalarB msg="BenimParametrem"/> -->
+    <!-- <PromosyonKoduB msg="BenimParametrem"/> -->
+    <!-- <GirisYapB msg="BenimParametrem"/> -->
+    <BannerB msg="BenimParametrem"/>
   </div>
 </template>
 
@@ -15,7 +16,9 @@
 //import UrunDetay from './components/UrunDetay.vue'
 //import KampanyalarB from './components/KampanyalarB.vue'
 //import PromosyonKoduB from './components/PromosyonKoduB.vue'
-import GirisYapB from './components/GirisYapB.vue'
+//import GirisYapB from './components/GirisYapB.vue'
+import BannerB from './components/BannerB.vue'
+
 
 
 export default {
@@ -24,7 +27,8 @@ export default {
     //UrunDetay
     //KampanyalarB
     //PromosyonKoduB
-    GirisYapB
+    //GirisYapB
+    BannerB
   }
 }
 </script>
