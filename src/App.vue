@@ -6,7 +6,8 @@
     <!-- <PromosyonKoduB msg="BenimParametrem"/> -->
     <!-- <GirisYapB msg="BenimParametrem"/> -->
     <!-- <BannerB msg="BenimParametrem"/> -->
-    <AktuelUrunler msg="BenimParametrem"/>
+    <!-- <AktuelUrunler msg="BenimParametrem"/> -->
+    <Kategoriler msg="BenimParametrem"/>
   </div>
 </template>
 
@@ -19,7 +20,8 @@
 //import PromosyonKoduB from './components/PromosyonKoduB.vue'
 //import GirisYapB from './components/GirisYapB.vue'
 //import BannerB from './components/BannerB.vue'
-import AktuelUrunler from './components/AktuelUrunler.vue'
+//import AktuelUrunler from './components/AktuelUrunler.vue'
+import Kategoriler from './components/Kategoriler.vue'
 
 
 
@@ -31,7 +33,8 @@ export default {
     //PromosyonKoduB
     //GirisYapB
     //BannerB
-    AktuelUrunler
+    //AktuelUrunler
+    Kategoriler
   }
 }
 </script>
@@ -40,6 +43,7 @@ export default {
 /* -----------------------------------Style-------------------- */
 
 <style>
+
 #app {
   
 }
