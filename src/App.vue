@@ -8,7 +8,8 @@
     <!-- <BannerB msg="BenimParametrem"/> -->
     <!-- <AktuelUrunler msg="BenimParametrem"/> -->
     <!-- <Kategoriler msg="BenimParametrem"/> -->
-    <Adres msg="BenimParametrem"/>
+    <!-- <Adres msg="BenimParametrem"/> -->
+    <BunlariKacirma msg="BenimParametrem"/>
   </div>
 </template>
 
@@ -23,7 +24,8 @@
 //import BannerB from './components/BannerB.vue'
 //import AktuelUrunler from './components/AktuelUrunler.vue'
 //import Kategoriler from './components/Kategoriler.vue'
-import Adres from './components/Adres.vue'
+//import Adres from './components/Adres.vue'
+import BunlariKacirma from './components/BunlariKacirma.vue'
 
 
 
@@ -37,7 +39,8 @@ export default {
     //BannerB
     //AktuelUrunler
     //Kategoriler
-    Adres
+    //Adres
+    BunlariKacirma
   }
 }
 </script>
