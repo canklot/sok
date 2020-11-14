@@ -7,7 +7,8 @@
     <!-- <GirisYapB msg="BenimParametrem"/> -->
     <!-- <BannerB msg="BenimParametrem"/> -->
     <!-- <AktuelUrunler msg="BenimParametrem"/> -->
-    <Kategoriler msg="BenimParametrem"/>
+    <!-- <Kategoriler msg="BenimParametrem"/> -->
+    <Adres msg="BenimParametrem"/>
   </div>
 </template>
 
@@ -21,7 +22,8 @@
 //import GirisYapB from './components/GirisYapB.vue'
 //import BannerB from './components/BannerB.vue'
 //import AktuelUrunler from './components/AktuelUrunler.vue'
-import Kategoriler from './components/Kategoriler.vue'
+//import Kategoriler from './components/Kategoriler.vue'
+import Adres from './components/Adres.vue'
 
 
 
@@ -34,7 +36,8 @@ export default {
     //GirisYapB
     //BannerB
     //AktuelUrunler
-    Kategoriler
+    //Kategoriler
+    Adres
   }
 }
 </script>
