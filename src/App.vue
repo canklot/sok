@@ -9,7 +9,8 @@
     <!-- <AktuelUrunler msg="BenimParametrem"/> -->
     <!-- <Kategoriler msg="BenimParametrem"/> -->
     <!-- <Adres msg="BenimParametrem"/> -->
-    <BunlariKacirma msg="BenimParametrem"/>
+    <!-- <BunlariKacirma msg="BenimParametrem"/> -->
+    <Sepetim msg="BenimParametrem"/>
   </div>
 </template>
 
@@ -25,7 +26,8 @@
 //import AktuelUrunler from './components/AktuelUrunler.vue'
 //import Kategoriler from './components/Kategoriler.vue'
 //import Adres from './components/Adres.vue'
-import BunlariKacirma from './components/BunlariKacirma.vue'
+//import BunlariKacirma from './components/BunlariKacirma.vue'
+import Sepetim from './components/Sepetim.vue'
 
 
 
@@ -40,7 +42,8 @@ export default {
     //AktuelUrunler
     //Kategoriler
     //Adres
-    BunlariKacirma
+    //BunlariKacirma
+    Sepetim
   }
 }
 </script>
